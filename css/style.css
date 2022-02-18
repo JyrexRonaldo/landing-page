@@ -8,7 +8,7 @@ body {
 
 .one {
     background-color: #1f2937;
-    height: 65vh;
+    height: 55vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,7 +16,7 @@ body {
 }
 
 .one-header, .one-body {
-    width: 65%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
 }
@@ -60,7 +60,7 @@ h1 {
 }
 
 .one-body img {
-    width: 40%;
+    width: 400px;
     height: auto;
 }
 
@@ -73,3 +73,78 @@ button {
     padding: 10px 30px 10px 30px;
     text-decoration: none;
   }
+
+.two {
+    height: 45vh;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin: 50px 0px;
+
+}
+
+.illustrations {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.item img{
+    border: 5px solid #679EF8;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+
+}
+
+.item {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.item p {
+    width: 150px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.three {
+    height: 45vh;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inspiring-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+}
+
+.author {
+    font-size: 16PX;
+    font-weight: bolder;
+    align-self: flex-end;
+}
+
+.four {
+    
+}
