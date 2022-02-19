@@ -146,5 +146,42 @@ button {
 }
 
 .four {
-    
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-div {
+    background-color: #3B82F6;
+    height: 45%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 13%;
+    border-radius: 15px;
+}
+
+.call p {
+    color: white;
+}
+
+.time {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.four button {
+    border-color: white;
+}
+
+footer {
+    background-color: #1f2937;
+    height: 150px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
 }
