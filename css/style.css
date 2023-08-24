@@ -19,12 +19,12 @@ html {
     justify-content: space-between;
 }
 
-.section-one > div:first-child {
+.section-one>div:first-child {
     display: flex;
     justify-content: space-between;
 }
 
-.section-one > div:first-child > p {
+.section-one>div:first-child>p {
     font-size: 24px;
 }
 
@@ -33,26 +33,27 @@ ul {
     gap: 16px;
 }
 
-.section-one > div:nth-child(2) {
+.section-one>div:nth-child(2) {
     display: flex;
     justify-content: space-between;
 }
 
-.section-one > div:nth-child(2) > div {
+.section-one>div:nth-child(2)>div {
     width: 460px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     gap: 12px;
-} 
+}
 
 .hero-main-text {
     font-weight: bolder;
     font-size: 48px;
 }
 
-.hero-secondary-text, ul {
+.hero-secondary-text,
+ul {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -82,13 +83,13 @@ button {
     padding: 30px;
 }
 
-.section-two > p {
+.section-two>p {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
 }
 
-.section-two img{
+.section-two img {
     border: 5px solid #679EF8;
     border-radius: 10%;
     width: 200px;
@@ -112,4 +113,68 @@ button {
 .section-two div:nth-child(2) p {
     text-align: center;
     width: 150px;
+}
+
+.section-three {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.section-three p:first-child {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+    font-style: italic;
+    width: 800px;
+}
+
+.section-three>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-three p:nth-child(2) {
+    align-self: flex-end;
+    font-size: 20px;
+}
+
+.section-four {
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-four > div {
+    display: flex;
+    background-color: #3882f6;
+    width: 60vw;
+    height: 40%;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 290px;
+}
+
+.section-four p {
+    color: #F9FAF8;
+}
+
+.section-four p:first-child {
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    height: 7vh;
+    color: #F9FAF8;
 }
